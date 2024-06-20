@@ -1,0 +1,24 @@
+@import "../../index.scss";
+
+.layout {
+	display: flex;
+	flex-direction: row;
+}
+
+.sidebar, .content{
+	display: flex;
+	flex-direction: column;
+	min-height: 500px;
+}
+
+.sidebar {
+	flex-grow: 1;
+	min-width: 300px;
+	background-color: $color-purple;
+}
+
+.content {
+	flex-grow: 5;
+	min-width: 630px;
+	background-color: $color-cyan;
+}
